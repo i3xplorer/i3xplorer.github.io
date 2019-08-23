@@ -1,8 +1,15 @@
+@font-face {
+    font-family: Minecraft RUS;
+    src: url("https://uc63bab4bb462b3d206561f6442b.dl.dropboxusercontent.com/cd/0/get/AnLCcqSUCVAT6xJVAuZPtha1q-dtRAnPKOWTTyT6HMv6lk6CejIJoOM-2hp0iTukwl0iycNSxxoSh5lqzZdLYViv8K781kFjXG09eC-3GQpium4SyIA7NqUcJXw-E1oAxJ4/file?dl=1#");
+   }
 html {
-  background-color: #f0e6e6
+  background-color: #e0e0e0;
 }
 .general {
-  margin-left: 25%;
+  margin-top: 10px;
+  font-family: Minecraft RUS;
+  color: #353535;
+  margin-left: 250px;
   border-left-color: rgb(73, 73, 73);
   border-left-width: 5px;
   border-left-style: solid;
@@ -14,17 +21,69 @@ fieldset {
   border-width: 5px;
   border-style: solid;
   border-radius: 15px;
+  margin-top: 10px;
   padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555555;
+  width: 70%;
 }
 legend {
   padding: 10px;
   margin-left: 10px;
-  font-size: 125%
+  font-size: 125%;
+  font-family: Minecraft RUS;
 }
-table {
-  margin-top: 10px;
-  border: 5px;
-  height: 15px;
+.projects  {
+  font-family: Minecraft RUS;
+  border-style: solid;
+  margin-left: 14px;
+  margin-top: 20px;
+  position: fixed;
+  top: 30px;
+  border-radius: 15px;
+  border-color: #bebebe;
+  border-width: 5px;
+  text-align: center;
+}
+.survmod {
+  height: 100px;
+  width: 100px;
+  background-color: lightcoral;
+}
+.survplug {
+  height: 100px;
+  width: 100px;
+  background-color: lightblue;
+}
+.project3 {
+  height: 100px;
+  width: 100px;
+  background-color: greenyellow;
+}
+.project4 {
+  height: 60px;
+  width: 60px;
+  background-color: yellow;
+}
+.descr {
+  padding: 3px;
+  margin-top: 15px;
+  font-family: Minecraft RUS;
+  color: #353535;
+}
+.myprojectcell {
+  border-bottom-style: solid;
+  border-bottom-color: #bebebe;
+  font-size: 25px;
+}
+.content {
+  border-color: #bebebe;
+  border-width: 5px;
   border-style: solid;
   border-radius: 15px;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  width: 200px;
+  height: 230px;
 }
